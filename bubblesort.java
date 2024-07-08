@@ -35,3 +35,10 @@ public class bubblesort {
         printArray(arr, n);
     }
 }
+/*
+ *steps to sort an array using bubble sort 
+ step1: traverse the array index  using for loop ,i<n-1(n is the no. of elements)
+ step2: check the elements of the two consecutive index using one more for loop , j<n-i-1
+ step3: compare the elements, if the a[j]>a[j+1]
+ step4: apply swaping else move
+ */
